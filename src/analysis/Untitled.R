@@ -52,3 +52,5 @@ gap_ludicrously_wide <- gap_long %>%
   spread(var_names,obs_values)
 str(gap_ludicrously_wide)
 
+
+

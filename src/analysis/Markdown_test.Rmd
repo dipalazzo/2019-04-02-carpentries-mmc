@@ -1,0 +1,45 @@
+---
+title: "R Markdown Example"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+[Google Link](http://www.google.com)
+
+```{r setup2, include=TRUE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+library(here)
+gapminder<- readr::read_csv(here("data/gapminder/raw/gapminder_data.csv"))
+
+ggplot(data=gapminder, aes(x=year, y=lifeExp, color=continent)) +
+  geom_line() +
+  facet_wrap(~ country)
+
+```
+
+
+```{r setup3, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+library(pander)
+library(stargazer)
+library(beepr)
+d<- readr::read_csv(here("data/gapminder/raw/gapminder_data.csv"))
+```
+
+The data consists of `r length(unique(d$country)) ` unique countries tracked since `r range(d$year)[1]`
+
+
+```{r}
+pander(summary(d))
+
+```
