@@ -20,7 +20,7 @@ output:
 
 ## Author
 
-<your name> (<user email>)
+John DiPalazzo (dipalj@mmc.org)
 
 ## Contents
 
