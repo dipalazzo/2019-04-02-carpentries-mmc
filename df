@@ -1,0 +1,48 @@
+[33mcommit 3b898941431dc5f277192b4e3056be7f18727606[m
+Author: dipalazzo <dipalj@mmc.org>
+Date:   Tue Apr 2 13:55:00 2019 +0000
+
+    first updates
+
+[33mcommit b4a3db2b5051cf9ec0cd19e8e1372e3cb29e4adc[m
+Author: Nicholas Potter <potterzot@gmail.com>
+Date:   Mon Apr 1 20:29:30 2019 -0700
+
+    add library.bib.
+
+[33mcommit 9ece640b764329310add2f1837d14d678b6adc9c[m
+Merge: 5885eb4 250f9ca
+Author: Nicholas Potter <potterzot@gmail.com>
+Date:   Mon Apr 1 20:26:47 2019 -0700
+
+    merge updated readme.
+
+[33mcommit 5885eb421249f62e2a457ab4c2037bf755b913c1[m
+Author: Nicholas Potter <potterzot@gmail.com>
+Date:   Mon Apr 1 20:25:21 2019 -0700
+
+    finished notes.
+
+[33mcommit 250f9caf72343a90e308a0bd2add2427a03e2cb4[m
+Author: Nicholas Potter <potterzot@gmail.com>
+Date:   Tue Apr 2 02:24:27 2019 +0000
+
+    update README to remove my name.
+
+[33mcommit 242d1a17f7b4ec000b511c5fe55de7d1c0626f65[m
+Author: Nicholas Potter <potterzot@gmail.com>
+Date:   Tue Apr 2 01:12:52 2019 +0000
+
+    test change from rstudio cloud.
+
+[33mcommit ffc6e9ba19daad44db51d7d7e90f2487fa2d2f0f[m
+Author: Nicholas Potter <potterzot@gmail.com>
+Date:   Mon Apr 1 14:29:55 2019 -0700
+
+    initial setup.
+
+[33mcommit e36ad022433f3eb28727fb0faa64ee4d38451afd[m
+Author: Nicholas Potter <potterzot@users.noreply.github.com>
+Date:   Mon Apr 1 11:32:16 2019 -0700
+
+    Create README.md
